@@ -8,7 +8,7 @@ import Learnify from "../assets/Learnify.png";
 
 const MyProjects = () => {
   return (
-    <div className="px-5 mt-[50px]" id="MyProjects">
+    <div className="px-5 md:mt-[50px]" id="MyProjects">
       <h1 className="text-white text-center text-5xl font-semibold">
         Projects
       </h1>
@@ -38,7 +38,7 @@ const MyProjects = () => {
             </h1>
             <h1 className="py-2 mb-5">Server: MongoDB, Node, Express.js</h1>
             {/*Link icons  */}
-            <div className="flex gap-5 justify-center ">
+            <div className="md:flex flex-row  gap-5 justify-center ">
               <Link
                 target="_blank"
                 to={"https://github.com/rezaulkarim7080/Techmart"}
@@ -86,11 +86,11 @@ const MyProjects = () => {
             </h1>
             <h1 className="py-2">
               Client: HTML5, HTML, React.js, Git, JavaScript, Web Development,
-              React.js, TailwindCSS,firebase,daisyui
+              React.js, TailwindCSS,firebase
             </h1>
             <h1 className="py-2  mb-5">Server: MongoDB, Node, Express.js</h1>
             {/*Link icons  */}
-            <div className="flex gap-5 justify-center ">
+            <div className="md:flex flex-row gap-5 justify-center ">
               <Link
                 target="_blank"
                 to={"https://github.com/rezaulkarim7080/OasisDental"}
@@ -161,7 +161,7 @@ const MyProjects = () => {
             </h1>
             <h1 className="py-2 mb-5">Server: MongoDB, Node, Express.js</h1>
             {/*Link icons  */}
-            <div className="flex gap-10 justify-center ">
+            <div className="md:flex flex-row gap-10 justify-center ">
               <Link
                 target="_blank"
                 to={"https://github.com/rezaulkarim7080/Learnify"}
